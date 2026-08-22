@@ -12,7 +12,7 @@ const int TRIG = 6;
 const int BUZZER = 7;
 const int LDR = A0;
 
-const int lightThreshold = 95;     //Light threshold adjusted to Tinkercad Physics
+const int lightThreshold = 95;     //Light threshold of ~50% adjusted to Tinkercad Physics
 const int distThreshold = 100;     //Distance threshold of 100cm
 const int cooldownTime = 5000;     //Time window for dropping the anchor after Storm/Charybdis
 bool anchorDropped = false;        //Current state of the anchor
