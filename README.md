@@ -12,7 +12,7 @@ To extract and clean the depth data, I used Pandas. I first coerced the non-nume
 
 #### Project rundown :
 
-In this project, I made a state machine by defining some states and conditions to switch between said states. I used variables and functions a lot in the code since I felt that the sensor values needed to be tweaked a lot in TinkerCAD. I used the millis(); function to blink the led without the delay(); function and the tone(); function to sound the buzzer. I had and still have problems with the LDR's tuning and in the final submission, I tweaked the code in such a way that the ambient lighting is at 50% according to the GUI and that's the Light Threshold to trigger the 'STORM' state. The code is far from being appreciable and definitely not efficient but that's what I could give.
+In this project, I made a state machine. I had and still have problems with the LDR's tuning and in the final submission, I tweaked the code in such a way that the ambient lighting is at 50% according to the GUI and that's the Light Threshold to trigger the 'STORM' state. The code is far from being appreciable and definitely not efficient but that's what I could give.
 
 ### Hope you ppl like my submission and approve me to participate in the next induction round.
 
