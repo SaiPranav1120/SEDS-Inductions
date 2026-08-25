@@ -6,7 +6,7 @@
 ### Task - 1 :
 #### Extracting the depth data from the .csv file and cleaning it up
 
-To extract and clean the depth data, I used Pandas. I first coerced the non-numeric values and then deleted the extreme values and replaced them with np.nan. Then, I filled in the empty blocks by interpolating the data. Then, I used the rolling median function to smooth out the high-frequency noise caused by the waves or whatever and used matplotlib to plot out the data points and animate them. 
+To extract and clean the depth data, I used Pandas. I first coerced the non-numeric values and then deleted the extreme values and replaced them with np.nan. Then, I filled in the empty blocks by interpolating the data. Then, I used the rolling median function to smooth out the high-frequency noise or whatever and used matplotlib to plot out the data points and animate them. 
 
 ### Task - 2 :
 
